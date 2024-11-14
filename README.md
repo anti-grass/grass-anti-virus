@@ -21,7 +21,7 @@ Follow these steps to get Grass Anti Virus running on your local machine.
 2. Find the latest release, and download the correct file for your operating system
 3. Run the file
 
-### Option 3: Self-Compiling
+### Option 2: Self-Compiling
 
 1. Clone the repository to your local machine:
    ```bash
