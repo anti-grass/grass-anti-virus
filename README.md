@@ -17,7 +17,7 @@ Follow these steps to get Grass Anti Virus running on your local machine.
 
 ### Option 1: Pre-Compiled Executables
 
-1. Head over to (the releases page)[https://github.com/anti-grass/grass-anti-virus/releases]
+1. Head over to [the releases page](https://github.com/anti-grass/grass-anti-virus/releases)
 2. Find the latest release, and download the correct file for your operating system
 3. Run the file
 
