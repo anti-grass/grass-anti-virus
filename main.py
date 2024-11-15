@@ -15,7 +15,6 @@ def scan_folder():
     total_files = sum([len(files) for _, _, files in os.walk(folder_path)])
     progress_bar['maximum'] = total_files
 
-    # Start scanning files
     for root_dir, dirs, files in os.walk(folder_path):
         for file in files:
             file_path = os.path.join(root_dir, file)
