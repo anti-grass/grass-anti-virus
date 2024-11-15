@@ -20,7 +20,7 @@ def scan_folder():
             file_path = os.path.join(root_dir, file)
             try:
                 with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                    content = f.readlines()  # Read file line by line
+                    content = f.readlines()
                     for line_number, line in enumerate(content, start=1):
                         char_positions = [i for i in range(len(line)) if line.startswith("grass", i)]
                         if char_positions:
